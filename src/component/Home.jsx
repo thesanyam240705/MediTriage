@@ -25,11 +25,17 @@ export default function Home() {
           </p>
 
           <div className="flex flex-nowrap items-center gap-6">
-            <button className="bg-[#1F8F7A] text-white px-6 py-3 rounded-full font-semibold whitespace-nowrap shadow-[0_10px_25px_rgba(31,143,122,0.35)] hover:bg-[#187665] hover:scale-105 transition-all duration-300">
+            <button
+              className="bg-[#1F8F7A] text-white px-6 py-3 rounded-full font-semibold whitespace-nowrap shadow-[0_10px_25px_rgba(31,143,122,0.35)] hover:bg-[#187665] hover:scale-105 transition-all duration-300"
+              onClick={() => navigate('/consultation')}
+            >
               🩺 Start Medical Consultation
             </button>
 
-            <button className="bg-[#E53935] text-white px-6 py-3 rounded-full font-semibold whitespace-nowrap shadow-[0_10px_25px_rgba(229,57,53,0.35)] hover:bg-[#C62828] hover:scale-105 transition-all duration-300">
+            <button
+              className="bg-[#E53935] text-white px-6 py-3 rounded-full font-semibold whitespace-nowrap shadow-[0_10px_25px_rgba(229,57,53,0.35)] hover:bg-[#C62828] hover:scale-105 transition-all duration-300"
+              onClick={() => navigate('/blood-request')}
+            >
               🩸 Request Blood Urgently
             </button>
           </div>
