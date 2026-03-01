@@ -7,8 +7,8 @@ import MainLayout from "./component/MainLayout";
 import Home from "./component/Home";
 import Login from "./component/login";
 import Register from "./component/register";
-import Consultation from "./pages/Consultation";
-import BloodRequest from "./pages/BloodRequest";
+import Consultation from "./component/Consultation";
+import BloodRequest from "./component/BloodRequest";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
