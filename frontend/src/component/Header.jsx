@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <nav className="bg-white/80 backdrop-blur-md shadow-sm border-b border-gray-200 sticky top-0 z-50">
       <div className="flex justify-between items-center px-12 py-5">
-        
+
         {/* LOGO */}
         <div
           onClick={() => navigate("/")}
@@ -21,9 +21,13 @@ export default function Header() {
             <button onClick={() => navigate("/")} className="hover:text-blue-900">
               Home
             </button>
-            <button className="hover:text-blue-900">How It Works</button>
             <button className="hover:text-blue-900">Hospitals</button>
-            <button className="hover:text-blue-900">About</button>
+            <button
+              onClick={() => navigate("/about")}
+              className="hover:text-blue-900"
+            >
+              About Us
+            </button>
           </div>
 
           <div className="flex gap-4">
