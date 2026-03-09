@@ -9,7 +9,8 @@ import Login from "./component/login";
 import Register from "./component/register";
 import Consultation from "./component/Consultation";
 import BloodRequest from "./component/BloodRequest";
-import About from "./component/About"; 
+import About from "./component/About";
+import Hospital from "./component/Hospital";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -23,6 +24,7 @@ createRoot(document.getElementById("root")).render(
           <Route path="/consultation" element={<Consultation />} />
           <Route path="/blood-request" element={<BloodRequest />} />
           <Route path="/about" element={<About />} />
+          <Route path="/hospital" element={<Hospital />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -21,7 +21,9 @@ export default function Header() {
             <button onClick={() => navigate("/")} className="hover:text-blue-900">
               Home
             </button>
-            <button className="hover:text-blue-900">Hospitals</button>
+            <button onClick={() => navigate("/hospital")} className="hover:text-blue-900">
+              Hospitals
+            </button>
             <button
               onClick={() => navigate("/about")}
               className="hover:text-blue-900"
